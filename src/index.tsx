@@ -1,10 +1,10 @@
 import * as  React from "react";
 import * as ReactDOM from "react-dom";
-import { App } from "./components/App";
+import { App } from "./app/App";
 import './style.scss';
 
 const ROOT = document.querySelector(".container");
 
-const app = <App name="明国宾"/>
+const app = <App/>
 
 ReactDOM.render(app, ROOT);
