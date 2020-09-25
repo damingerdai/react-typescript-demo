@@ -6,8 +6,9 @@ module.exports = {
   entry: "./src/index.tsx",
   output: {
     path: path.resolve(__dirname, "build"),
-    filename: "bundle.js",
+    filename: "[name]-[hash].js",
   },
+  mode: 'development',
   devtool: "source-map",
   module: {
     rules: [
