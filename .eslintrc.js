@@ -5,9 +5,10 @@ module.exports = {
 		node: true,
 	},
 	extends: [
-		"eslint:recommended",
+		// "eslint:recommended",
 		// "plugin:react/recommended",
 		"plugin:@typescript-eslint/recommended",
+		"react-app",
 		"plugin:prettier/recommended",
 	],
 	parser: "@typescript-eslint/parser",

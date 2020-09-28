@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server",
-		"build": "webpack",
-		"lint": "eslint **/*.tsx",
+    "build": "webpack",
+    "lint": "eslint **/*.tsx",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -14,11 +14,13 @@
   "dependencies": {
     "bootstrap": "^4.5.2",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0"
   },
   "devDependencies": {
     "@types/react": "^16.9.49",
     "@types/react-dom": "^16.9.8",
+    "@types/react-router-dom": "^5.1.5",
     "@typescript-eslint/eslint-plugin": "^4.2.0",
     "@typescript-eslint/parser": "^4.2.0",
     "awesome-typescript-loader": "^5.2.1",

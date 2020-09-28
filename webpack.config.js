@@ -9,6 +9,9 @@ module.exports = {
 		path: path.resolve(__dirname, "build"),
 		filename: "[name]-[hash].js",
 	},
+	devServer: {
+		historyApiFallback: true,
+	},
 	mode: "development",
 	devtool: "source-map",
 	module: {
