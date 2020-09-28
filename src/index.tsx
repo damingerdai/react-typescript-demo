@@ -3,7 +3,7 @@ import * as ReactDOM from "react-dom";
 import { App } from "./app/App";
 import "./style.scss";
 
-const ROOT = document.querySelector(".container");
+const ROOT = document.querySelector("#root");
 
 const app = <App />;
 
