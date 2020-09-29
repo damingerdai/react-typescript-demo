@@ -1,5 +1,5 @@
 import * as React from "react";
-import { NavLink, Link, Route } from "react-router-dom";
+import { NavLink, Route } from "react-router-dom";
 
 import "./App.scss";
 
@@ -20,8 +20,7 @@ export class App extends React.Component<unknown, unknown> {
 		super(props);
 	}
 
-	// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
-	render() {
+	render(): JSX.Element {
 		return (
 			<div>
 				<nav className="navbar navbar-expand-lg navbar-dark bg-primary">
