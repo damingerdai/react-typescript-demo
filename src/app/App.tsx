@@ -1,5 +1,8 @@
 import * as React from "react";
 import { NavLink, Route } from "react-router-dom";
+// @ts-ignore
+import githubLogo from "../assets/github-circle-white-transparent.svg";
+console.log(githubLogo);
 
 import "./App.scss";
 
@@ -27,11 +30,14 @@ export class App extends React.Component<unknown, unknown> {
 					<a className="navbar-brand" href="#">
 						大明二代
 					</a>
-					<a className="navbar-nav mr-aut">
-						<NavLink activeClassName="active" className="nav-link" to="/">
-							Home
-						</NavLink>
-					</a>
+					<NavLink
+						activeClassName="active"
+						className=" navbar-nav mr-aut"
+						to="/"
+					>
+						<a className="nav-link">Home</a>
+					</NavLink>
+
 					<a className="navbar-nav mr-aut">
 						<NavLink
 							activeClassName="active"
@@ -42,6 +48,11 @@ export class App extends React.Component<unknown, unknown> {
 						</NavLink>
 					</a>
 					<span className="seprator"></span>
+					<img
+						src="assets/578a4d85ebf21ff409783136510fdb07.svg"
+						className="img-responsive circle"
+						alt="Cinque Terre"
+					/>
 					<button className="btn btn-primary">Search</button>
 				</nav>
 				<PrimaryLayout />
